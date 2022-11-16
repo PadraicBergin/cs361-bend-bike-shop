@@ -16,6 +16,7 @@ class Rental
 
   def weight
     @bike.weight + @luggage.items.count
+    
   end
 
 end
